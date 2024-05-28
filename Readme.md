@@ -1,9 +1,16 @@
-Speech Data Classification Project
+# Speech Data Classification Project
+
 This project aims to classify speech data using an attention-based LSTM model. The dataset consists of audio files stored in Google Drive, and the preprocessing steps include extracting MFCC features, padding sequences, and encoding labels. The model architecture is an LSTM with Bahdanau Attention, trained using categorical cross-entropy loss and evaluated using accuracy.
 
-Dataset Pre-Processing
-1. Installing Necessary Libraries
+## Dataset Pre-Processing
+
+### 1. Installing Necessary Libraries
+
 The following libraries are required for the project:
+
+```bash
+!pip install librosa sklearn tensorflow
+
 
 bash
 Copy code
