@@ -3,6 +3,8 @@
 
 This project aims to classify speech data using an attention-based LSTM model. The dataset consists of audio files stored in Google Drive, and the preprocessing steps include extracting MFCC features, padding sequences, and encoding labels. The model architecture is an LSTM with Bahdanau Attention, trained using categorical cross-entropy loss and evaluated using accuracy.
 
+Note book can be found here https://colab.research.google.com/drive/1t4hQ_cUAbli-AMZasl_WC7KZDSohs3S1?usp=sharing
+
 ## Dataset Pre-Processing
 
 ### 1. Installing Necessary Libraries
